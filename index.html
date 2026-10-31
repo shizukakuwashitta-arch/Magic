@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#071426">
+    <meta name="description" content="A little something, just for you.">
+    <title>Afterglow — A Little Surprise</title>
+    <link rel="stylesheet" href="stlye.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <canvas id="confetti" aria-hidden="true"></canvas>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div id="starfield" class="starfield" aria-hidden="true"></div>
+
+    <main>
+        <section id="landing" class="landing" aria-labelledby="landing-title">
+            <div class="landing-content">
+                <p class="eyebrow"><span class="eyebrow-line"></span> A NOTE FROM THE UNIVERSE</p>
+                <h1 id="landing-title">A little surprise<br><span>awaits.</span></h1>
+                <p class="landing-copy">Some days deserve to feel a little more like magic.</p>
+                <button id="continueBtn" class="button button-primary" type="button">
+                    <span>Continue</span><span class="button-arrow" aria-hidden="true">↗</span>
+                </button>
+                <p class="landing-footnote">Take a breath. This one's for you.</p>
+            </div>
+            <div class="orbit orbit-one" aria-hidden="true"></div>
+            <div class="orbit orbit-two" aria-hidden="true"></div>
+            <div class="landing-coordinate" aria-hidden="true">A MOMENT TO KEEP &nbsp;·&nbsp; 01 / 01</div>
+        </section>
+
+        <div id="birthdayContent" class="birthday-content" aria-hidden="true" inert>
+            <section id="reveal" class="reveal section-shell" aria-labelledby="birthday-title">
+                <p class="eyebrow"><span class="eyebrow-line"></span> TODAY IS YOURS</p>
+                <h2 id="birthday-title" class="birthday-title">
+                    <span>HAPPY</span><span>BIRTHDAY,</span><span class="name">CHOOM!</span>
+                </h2>
+                <p class="birthday-copy">Another trip around the sun, and somehow the world is brighter for it.</p>
+                <a class="scroll-cue" href="#sisters">KEEP GOING <span aria-hidden="true">↓</span></a>
+            </section>
+
+            <section class="wish-section section-shell" aria-labelledby="wish-title">
+                <div class="section-heading">
+                    <p class="eyebrow">A WISH, JUST FOR YOU</p>
+                    <h2 id="wish-title">Make this year <span>your own.</span></h2>
+                </div>
+                <p class="wish-copy">May the little things make you smile, the big things make you proud, and every in-between moment remind you how loved you are. You deserve a year full of good surprises, brave new chapters, and people who make every day feel a bit more like home.</p>
+                <div class="wish-signature"><span class="signature-rule"></span> WITH SO MUCH LOVE</div>
+            </section>
+
+            <section id="sisters" class="sisters-section section-shell" aria-labelledby="sisters-title">
+                <div class="section-heading">
+                    <p class="eyebrow">FIVE VERY DIFFERENT WISHES</p>
+                    <h2 id="sisters-title">A little birthday wisdom <span>from the sisters.</span></h2>
+                    <p class="section-intro">Choose a card. Each one has something to say.</p>
+                </div>
+                <div class="sister-grid">
+                    <button class="sister-card sister-ichika" type="button" aria-expanded="false">
+                        <span class="sister-number">01 / THE ACTRESS</span><span class="sister-symbol" aria-hidden="true">壱</span>
+                        <span class="sister-name">Ichika</span><span class="sister-prompt">A wish for your next big scene <span aria-hidden="true">↗</span></span>
+                        <span class="sister-message">The spotlight looks good on you, Choom. Keep chasing the roles and dreams that make your heart race. This next chapter is yours to write.</span>
+                    </button>
+                    <button class="sister-card sister-nino" type="button" aria-expanded="false">
+                        <span class="sister-number">02 / THE BOLD ONE</span><span class="sister-symbol" aria-hidden="true">弐</span>
+                        <span class="sister-name">Nino</span><span class="sister-prompt">A reminder to own your day <span aria-hidden="true">↗</span></span>
+                        <span class="sister-message">No playing small this year, okay? Ask for what you want, wear what makes you feel unstoppable, and never forget how incredible you are.</span>
+                    </button>
+                    <button class="sister-card sister-miku" type="button" aria-expanded="false">
+                        <span class="sister-number">03 / THE QUIET HEART</span><span class="sister-symbol" aria-hidden="true">参</span>
+                        <span class="sister-name">Miku</span><span class="sister-prompt">A quiet wish, from me to you <span aria-hidden="true">↗</span></span>
+                        <span class="sister-message">I hope this year brings you the kind of peace you can feel in your whole heart—and more little moments that are quietly, completely yours.</span>
+                    </button>
+                    <button class="sister-card sister-yotsuba" type="button" aria-expanded="false">
+                        <span class="sister-number">04 / THE BRIGHT SPARK</span><span class="sister-symbol" aria-hidden="true">肆</span>
+                        <span class="sister-name">Yotsuba</span><span class="sister-prompt">An extra dose of encouragement <span aria-hidden="true">↗</span></span>
+                        <span class="sister-message">You can do this, Choom! Whatever this year brings, I'll be cheering you on at full volume. Go make some amazing memories!</span>
+                    </button>
+                    <button class="sister-card sister-itsuki" type="button" aria-expanded="false">
+                        <span class="sister-number">05 / THE DREAMER</span><span class="sister-symbol" aria-hidden="true">伍</span>
+                        <span class="sister-name">Itsuki</span><span class="sister-prompt">A wish for the road ahead <span aria-hidden="true">↗</span></span>
+                        <span class="sister-message">May you keep growing into someone you're proud of. Take your time, trust your steps, and remember that every good journey starts somewhere.</span>
+                    </button>
+                </div>
+            </section>
+
+            <section class="alya-section section-shell" aria-labelledby="alya-title">
+                <div class="alya-orbit" aria-hidden="true"><span>ア</span><i></i><i></i><i></i></div>
+                <div class="alya-copy">
+                    <p class="eyebrow">A MESSAGE FROM ACROSS THE STARS</p>
+                    <h2 id="alya-title">Alya has something <span>to tell you.</span></h2>
+                    <p class="russian-greeting" lang="ru">С днём рождения, Чум! Желаю тебе счастья, радости и исполнения всех мечтаний.</p>
+                    <p class="translation">“Happy birthday, Choom! Wishing you happiness, joy, and the fulfillment of all your dreams.”</p>
+                    <p class="alya-signature">— Alya <span aria-hidden="true">✦</span></p>
+                </div>
+            </section>
+
+            <section class="final-section section-shell" aria-labelledby="final-title">
+                <p class="eyebrow">ONE LAST THING</p>
+                <h2 id="final-title">Before you go...</h2>
+                <button id="finalMessageBtn" class="button button-outline" type="button" aria-expanded="false" aria-controls="finalMessage">
+                    <span>Open Your Final Message</span><span class="button-arrow" aria-hidden="true">↗</span>
+                </button>
+                <div id="finalMessage" class="final-message" hidden>
+                    <p>Choom, no matter where this next year takes you, I hope you never forget how much you matter. The way you show up, the way you make ordinary moments better, the way you are simply <em>you</em>—those things mean more than you know. I’m so glad the world has you in it. Here’s to everything still waiting for you. Happy birthday. You deserve all of it.</p>
+                    <button id="celebrateBtn" class="button button-primary celebrate-button" type="button">Celebrate! <span aria-hidden="true">✦</span></button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="site-footer"><span>MADE FOR CHOOM</span><span>WITH LOVE, ALWAYS <span aria-hidden="true">✦</span></span></footer>
+</body>
+</html>

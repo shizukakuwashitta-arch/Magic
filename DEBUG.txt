@@ -1,0 +1,17 @@
+BIRTHDAY SURPRISE — QUICK TEST GUIDE
+====================================
+
+1. Open index.html in a browser. The landing page should show "A little surprise awaits."
+2. Click Continue. The birthday reveal should appear with a blue confetti burst.
+3. Scroll to the five sisters. Click each card to reveal its individual message;
+   click again to close it.
+4. Read Alya's Russian greeting and its English translation.
+5. Click "Open Your Final Message" to reveal the final note.
+6. Click Celebrate! to launch another confetti burst.
+7. Test on a narrow/mobile-sized browser window and with keyboard navigation.
+
+The portraits are inline SVG illustrations, so there are no external image
+dependencies. The optional Google Fonts import improves typography; system
+font fallbacks are provided.
+For GitHub Pages, publish the repository's root folder and keep the three site
+files together. Use a neutral repository name if you want to keep the surprise.
